@@ -28,11 +28,11 @@ console.log(opcion);
  	$(controlMedio).attr("src" ,ruta);
 			break;
 			case "youtube":
-			controlMedio = $("<iframe width='600px' height='400px' src='"+ ruta +"' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>");
+			controlMedio = $("<iframe width='100%' height='400px' src='"+ ruta +"' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>");
 
 				break;
 				case "pdf":
-				controlMedio = $("<embed id='currentMedio' src='"+ ruta +"' type='application/pdf' width='100%' height='100%'></embed>");
+				controlMedio = $("<embed id='currentMedio' src='"+ ruta +"' type='application/pdf' width='100%' height='400px'></embed>");
 				$(controlMedio).css("height", "420px");
 					break;
 		default:
