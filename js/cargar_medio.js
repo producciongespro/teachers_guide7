@@ -34,6 +34,7 @@ console.log(opcion);
 				case "pdf":
 				controlMedio = $("<embed id='currentMedio' src='"+ ruta +"' type='application/pdf' width='100%' height='400px'></embed>");
 				$(controlMedio).css("height", "420px");
+				$("#pLinkDirecto").html("Trouble downloading?  <a href='"+ ruta +"' >  Try here. </a>"    );
 					break;
 		default:
 		console.log("extension no encontrada");
