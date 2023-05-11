@@ -1,0 +1,27 @@
+/* #enlace_calificame{
+    background: url(../img/calificame_marcagua.png) no-repeat;
+    cursor: pointer;
+}
+
+#enlace_calificame:hover{
+    background: url(../img/calificame_fullcolor2.png) no-repeat;
+} */
+
+#calificame {
+    width: 300px;
+    margin: 0 auto;
+    }
+    #enlace_calificame img{
+    /* height: 100px;
+    width: 300px; */
+    margin: 15px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    }
+    #enlace_calificame img:hover {
+    /* height: 133px; */
+    width: 185px;
+    margin-left: -50px;
+    }
